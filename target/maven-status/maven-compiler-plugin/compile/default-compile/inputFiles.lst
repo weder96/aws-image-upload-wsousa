@@ -1,0 +1,9 @@
+/home/weder/Documentos/Projetos/aws-image-upload/aws-image-upload-master/src/main/java/com/wsousa/awsimageupload/filestore/FileStore.java
+/home/weder/Documentos/Projetos/aws-image-upload/aws-image-upload-master/src/main/java/com/wsousa/awsimageupload/config/AmazonConfig.java
+/home/weder/Documentos/Projetos/aws-image-upload/aws-image-upload-master/src/main/java/com/wsousa/awsimageupload/profile/UserProfileDataAccessService.java
+/home/weder/Documentos/Projetos/aws-image-upload/aws-image-upload-master/src/main/java/com/wsousa/awsimageupload/datastore/FakeUserProfileDataStore.java
+/home/weder/Documentos/Projetos/aws-image-upload/aws-image-upload-master/src/main/java/com/wsousa/awsimageupload/profile/UserProfileController.java
+/home/weder/Documentos/Projetos/aws-image-upload/aws-image-upload-master/src/main/java/com/wsousa/awsimageupload/bucket/BucketName.java
+/home/weder/Documentos/Projetos/aws-image-upload/aws-image-upload-master/src/main/java/com/wsousa/awsimageupload/profile/UserProfileService.java
+/home/weder/Documentos/Projetos/aws-image-upload/aws-image-upload-master/src/main/java/com/wsousa/awsimageupload/Main.java
+/home/weder/Documentos/Projetos/aws-image-upload/aws-image-upload-master/src/main/java/com/wsousa/awsimageupload/profile/UserProfile.java

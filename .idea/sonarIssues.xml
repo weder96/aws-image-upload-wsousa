@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="$PROJECT_DIR$/../../CertificationJava2021/javaaula/Artigo/Junit5JupiterMaven/src/test/java/project/DynamicDemoTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../CertificationJava2021/javaaula/Artigo/demoCucumberSpringBoot/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../CertificationJava2021/javaaula/Artigo/demoCucumberSpringBoot/src/main/java/com/wsousa/demoCucumber/domain/Livro.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../CertificationJava2021/javaaula/Artigo/demoCucumberSpringBoot/src/main/java/com/wsousa/demoCucumber/domain/Topico.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../CertificationJava2021/javaaula/Artigo/demoCucumberSpringBoot/src/main/java/com/wsousa/demoCucumber/repository/LivroDAO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../CertificationJava2021/javaaula/Artigo/demoCucumberSpringBoot/src/main/java/com/wsousa/demoCucumber/service/BibliotecaService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../CertificationJava2021/javaaula/Artigo/demoCucumberSpringBoot/src/main/java/com/wsousa/demoCucumber/service/impl/BibliotecaServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../CertificationJava2021/javaaula/Artigo/demoCucumberSpringBoot/src/main/java/com/wsousa/demoCucumber/util/Utils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../CertificationJava2021/javaaula/Artigo/demoCucumberSpringBoot/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../CertificationJava2021/javaaula/Artigo/demoCucumberSpringBoot/src/test/java/com/wsousa/demoCucumber/CucumberSpringContextConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../CertificationJava2021/javaaula/Artigo/demoCucumberSpringBoot/src/test/java/com/wsousa/demoCucumber/CucumberTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../CertificationJava2021/javaaula/Artigo/demoCucumberSpringBoot/src/test/java/com/wsousa/demoCucumber/ProjectTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../CertificationJava2021/javaaula/Artigo/demoCucumberSpringBoot/src/test/java/com/wsousa/demoCucumber/api/ProjectSteps.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../CertificationJava2021/javaaula/Artigo/demoCucumberSpringBoot/src/test/resources/api/is_it_friday_yet.feature">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../CertificationJava2021/javaaula/Artigo/demoCucumberSpringBoot/src/test/resources/helloCucumber/is_it_friday_yet.feature">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../CertificationJava2021/javaaula/Artigo/demoCucumberSpringBoot/src/test/resources/ui/random-number.feature">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../CertificationJava2021/javaaula/Artigo/demoRestAssured/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/cagriyildiz/awsimageupload/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/cagriyildiz/awsimageupload/bucket/BucketName.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/cagriyildiz/awsimageupload/config/AmazonConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/cagriyildiz/awsimageupload/datastore/FakeUserProfileDataStore.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/wsousa/awsimageupload/bucket/BucketName.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

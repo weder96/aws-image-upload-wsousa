@@ -1,0 +1,9 @@
+com/wsousa/awsimageupload/datastore/FakeUserProfileDataStore.class
+com/wsousa/awsimageupload/Main.class
+com/wsousa/awsimageupload/profile/UserProfileDataAccessService.class
+com/wsousa/awsimageupload/config/AmazonConfig.class
+com/wsousa/awsimageupload/profile/UserProfile.class
+com/wsousa/awsimageupload/profile/UserProfileController.class
+com/wsousa/awsimageupload/profile/UserProfileService.class
+com/wsousa/awsimageupload/filestore/FileStore.class
+com/wsousa/awsimageupload/bucket/BucketName.class
