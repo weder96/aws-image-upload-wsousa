@@ -29,7 +29,7 @@ public class ProfileService {
         return userProfileDataAccessService.getUserProfiles();
     }
 
-    public void uploadUserProfileImage(UUID userProfileId, MultipartFile file) {
+    public void uploadUserProfileImage(String userProfileId, MultipartFile file, String bucket) {
         // 1. Check if image is not empty
         isFileEmpty(file);
 
@@ -43,7 +43,7 @@ public class ProfileService {
         Map<String, String> metadata = extractMetadata(file);
 
         // 5. Store the image in s3 and update DB (userProfileImageLink) with s3 image link
-        String path = String.format("%s/%s-%s", BucketName.PROFILE_IMAGE.getBucketName(), user.getUsername(), user.getUserProfileId());
+        String path = String.format("%s", bucket);
         String fileName = String.format("%s-%s", file.getOriginalFilename(), UUID.randomUUID());
         try {
             fileStore.save(path, fileName, file.getInputStream(), Optional.of(metadata));
@@ -53,16 +53,8 @@ public class ProfileService {
         }
     }
 
-    public byte[] downloadProfileImage(UUID userProfileId) {
-        Profile user = getUserProfile(userProfileId);
-        String path = String.format("%s/%s-%s",
-                BucketName.PROFILE_IMAGE.getBucketName(),
-                user.getUsername(),
-                user.getUserProfileId());
-
-        return user.getUserProfileImageLink()
-                .map(key -> fileStore.download(path, key))
-                .orElse(new byte[0]);
+    public byte[] downloadProfileImage(String key, String bucket) {
+        return fileStore.download(bucket, key);
     }
 
     private Map<String, String> extractMetadata(MultipartFile file) {
@@ -72,7 +64,7 @@ public class ProfileService {
         return metadata;
     }
 
-    private Profile getUserProfile(UUID userProfileId) {
+    private Profile getUserProfile(String userProfileId) {
         return userProfileDataAccessService
                 .getUserProfiles()
                 .stream()

@@ -6,17 +6,17 @@ import java.util.UUID;
 
 public class Profile {
 
-    private final UUID userProfileId;
+    private final String userProfileId;
     private final String username;
     private String userProfileImageLink; // S3 key
 
-    public Profile(UUID userProfileId, String username, String userProfileImageLink) {
+    public Profile(String userProfileId, String username, String userProfileImageLink) {
         this.userProfileId = userProfileId;
         this.username = username;
         this.userProfileImageLink = userProfileImageLink;
     }
 
-    public UUID getUserProfileId() {
+    public String getUserProfileId() {
         return userProfileId;
     }
 

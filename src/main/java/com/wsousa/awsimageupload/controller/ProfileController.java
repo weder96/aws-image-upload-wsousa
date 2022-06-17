@@ -38,14 +38,16 @@ public class ProfileController {
             consumes = MediaType.MULTIPART_FORM_DATA_VALUE,
             produces = MediaType.APPLICATION_JSON_VALUE
     )
-    public void uploadUserProfileImage(@PathVariable("profileId") UUID userProfileId,
-                                       @RequestParam("file") MultipartFile file) {
-        userProfileService.uploadUserProfileImage(userProfileId, file);
+    public void uploadUserProfileImage(@PathVariable("profileId") String userProfileId,
+                                       @RequestParam("file") MultipartFile file,
+                                       @RequestParam("bucket") String bucket) {
+        userProfileService.uploadUserProfileImage(userProfileId, file, bucket);
     }
 
-    @GetMapping("{profileId}/image/download")
-    public byte[] downloadProfileImage(@PathVariable("profileId") UUID userProfileId) {
-        return userProfileService.downloadProfileImage(userProfileId);
+    @GetMapping("/bucket/{bucket}/image/{profileId}/download")
+    public byte[] downloadProfileImage(@PathVariable("profileId") String userProfileId,
+                                       @PathVariable("bucket") String bucket) {
+        return userProfileService.downloadProfileImage(userProfileId, bucket);
     }
 
     @GetMapping("/listObjects")
