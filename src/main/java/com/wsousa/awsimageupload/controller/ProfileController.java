@@ -45,7 +45,7 @@ public class ProfileController {
     }
 
     @GetMapping("/bucket/{bucket}/image/{profileId}/download")
-    public byte[] downloadProfileImage(@PathVariable("profileId") String userProfileId,
+    public @ResponseBody byte[] downloadProfileImage(@PathVariable("profileId") String userProfileId,
                                        @PathVariable("bucket") String bucket) {
         return userProfileService.downloadProfileImage(userProfileId, bucket);
     }

@@ -54,7 +54,9 @@ public class ProfileService {
     }
 
     public byte[] downloadProfileImage(String key, String bucket) {
-        return fileStore.download(bucket, key);
+        byte [] file = fileStore.download(bucket, key);
+        return file;
+
     }
 
     private Map<String, String> extractMetadata(MultipartFile file) {
